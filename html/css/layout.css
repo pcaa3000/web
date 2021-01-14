@@ -7,6 +7,9 @@
 html{
     font-size: 62.5%;
 }
+
+/* header html */
+
 .header{
     border-top: 0 ;
     border-left: 0;
@@ -19,6 +22,7 @@ html{
     position: absolute;
     right:0;
 }
+
 .nav__menu li a{
     font-size: 1.6rem;
     text-align: center;
@@ -28,4 +32,48 @@ html{
 .header__logo, .navigation, .nav__menu li{
     display: inline-block;    
     margin: 3px;
+}
+
+/* main html */
+
+.main {
+    background-color: blueviolet;
+}
+
+.main .main_aside{
+    display: inline-block;
+    padding: 10;
+    background-color:burlywood;
+    width:20%
+}
+.main .main_aside .main-aside-c{    
+    height:200px;
+    width: 90%;    
+    margin: 10px;    
+    background-color:cadetblue;
+}
+
+.main .main_section{
+    display: inline-block;
+    padding: 10;
+    position: absolute;    
+        
+}
+.main .main_section .main__text {
+    color: white;
+    font-size: 1.6rem;
+}
+
+/* footer html */
+
+.footer{
+    background-color:cornsilk;    
+}
+.footer__socialmedia, .footer__About{
+    font-size: 1.6rem;       
+    display: inline-block;
+}
+.footer__About{
+    position: absolute;
+    right: 0;
 }
